@@ -1,16 +1,12 @@
-# Practice on an old kaggle competition
+# Predicting the next mosquito hotspots using past data.
 ## As an assignment from General Assembly Data Science Immersive School
 
-
-https://www.kaggle.com/c/predict-west-nile-virus/
 
 ## Objective
 Using data. Find patterns and predict the next mosquito hotspot areas and whether disease would be present.
 
 # Machine Learning Frameworks used
 - SKLearn
-- Tensorflow
-- XGBoost
 
 ## Machine Learning Applications:
 - Feature Engineering
@@ -20,5 +16,6 @@ Using data. Find patterns and predict the next mosquito hotspot areas and whethe
 - Model Selection
 
 ## Ensemble and model stacking
-I apply cross validation and perform model ensemble for various models then use a meta learner to learn the output of these models to achieve an even higher predictive accuracy
+I apply cross validation and perform model ensemble for various models then use a meta learner to learn the output of these models to achieve an even higher predictive accuracy.
+- Used an ensemble of random forest classifiers and sklearn without having to resort to deep learning and yet still achieved a 99% accuracy.
 
